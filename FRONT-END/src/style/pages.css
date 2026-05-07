@@ -1,0 +1,69 @@
+/* 
+    ####################
+        Home - Page
+    ####################
+*/
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--primary-section);
+    color: var(--text-h);
+    height: 95vh;
+}
+
+.hero-half-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+
+.hero-button {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#hero-line {
+    width: 95%;
+    border: 0.5px solid var(--text-h);
+    margin-top: 50px;
+}
+
+.hero-moyenne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    width: 50%;
+    height: 20vh;
+}
+
+.all-moyenne {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-headline);
+}
+.span-moyenne {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.ours-services {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--second-section);
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#information-line {
+    width: 100%;
+}
