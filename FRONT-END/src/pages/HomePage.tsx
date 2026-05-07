@@ -1,68 +1,79 @@
+import "../style/pages.css"
+import { ButtonStyled } from "../style/styledelement";
+
 const HomePage = () => {
     return (
         <div>
             <div className="hero">
-                <h1>Le service de mise en relation vérifié et garanti en Haïti</h1>
-                <p>
-                    Trouvez une femme de ménage, un homme de cour ou une gouvernante certifiée — 
-                    identité vérifiée, contrat officiel, salaire garanti.
-                    Vous n'avez à vous occuper de rien.
-                </p>
+                <div className="hero-half-left">
+                    <div className="hero-title">
+                        <h1>Le service de mise en relation vérifié et garanti en Haïti</h1>
+                        <p>
+                            Trouvez une femme de ménage, un homme de cour ou une gouvernante certifiée — 
+                            identité vérifiée, contrat officiel, salaire garanti.
+                            Vous n'avez à vous occuper de rien.
+                        </p>
+                    </div>
 
-                <div className="hero-button">
-                    <button>Trouver un prestataire</button>
-                    <button>Voir comment ça marche</button>
+                    <div className="hero-button">
+                        <ButtonStyled>Trouver un prestataire</ButtonStyled>
+                        <ButtonStyled>Voir comment ça marche</ButtonStyled>
+                    </div>
                 </div>
-                    <hr />
+
+                        <hr id="hero-line"/>
+
                 <div className="hero-moyenne">
-                    <div>
-                        <span>200+</span>
+                    <div className="all-moyenne">
+                        <span className="span-moyenne">200+</span>
                         <span>Prestataires certifiées</span>
                     </div>
-                    <div>
-                        <span>500+</span>
+                    <div className="all-moyenne">
+                        <span className="span-moyenne">500+</span>
                         <span>Familles satifaites</span>
                     </div>
-                    <div>
-                        <span>7</span>
+                    <div className="all-moyenne">
+                        <span className="span-moyenne">7</span>
                         <span>Zone couvertes</span>
                     </div>
-                    <div>
-                        <span>4.8★</span>
+                    <div className="all-moyenne">
+                        <span className="span-moyenne">4.8★</span>
                         <span>Note moyenne</span>
                     </div>
                 </div>
+
             </div>
 
             
             <section className="ours-services">
                 <div className="information">
                     <div>
-                        <span></span>
-                        <span></span>
+                        <span>✅</span>
+                        <span>Identités vérifiées</span>
                     </div>
                     <div>
-                        <span></span>
-                        <span></span>
+                        <span>📄</span>
+                        <span>Contrats officiels</span>
                     </div>
                     <div>
-                        <span></span>
-                        <span></span>
+                        <span>💳</span>
+                        <span>Paiement En ligne</span>
                     </div>
                     <div>
-                        <span></span>
-                        <span></span>
+                        <span>🔄️</span>
+                        <span>Remplacement 48h</span>
                     </div>
                     <div>
-                        <span></span>
-                        <span></span>
+                        <span>⚖️</span>
+                        <span>Conforme Code du Travail</span>
                     </div>
                     <div>
-                        <span></span>
-                        <span></span>
+                        <span>📞</span>
+                        <span>Support WhatsApp 7j/7</span>
                     </div>
                 </div>
-                <hr />
+
+                    <hr id="information-line"/>
 
                 <div className="the-services">
                     <h2>
@@ -76,19 +87,67 @@ const HomePage = () => {
                 </div>
 
                 <div className="service-card">
-                    
+                    <div className="card-of-service-provider">
+                        <h3>Travailleuse domestique</h3>
+                        <p>
+                            Ménage, cuisine, lessive, repassage, soin des enfants.
+                            Niveaux 1 à 4 selon les compétences.
+                        </p>
+                        <p>Dès 24 000 g/mois →</p>
+                    </div>
+                    <div className="card-of-service-provider">
+                        <h3>Homme de cour</h3>
+                        <p>
+                            Cour, portail, jardinage, lavage véhicules, gardiennage, conduite.
+                            Niveaux 1 à 3.
+                        </p>
+                        <p>Dès 24 000 g/mois →</p>
+                    </div>
                 </div>
             </section>
 
 
-            <section className="simple-process"></section>
+            <section className="simple-process">
+                <div>
+                    <span>1</span>
+                    <h4>Vous décrivez votre besoin</h4>
+                    <p>Via le site ou WhatsApp. Type de service, zone, fréquence.</p>
+                </div>
+                <div>
+                    <span>2</span>
+                    <h4>On vous propose un profil</h4>
+                    <p>Prestataire vérifiée, certifiée, disponible dans votre zone.</p>
+                </div>
+                <div>
+                    <span>3</span>
+                    <h4>Contrat signé & paiement</h4>
+                    <p>Abonnement mensuel. Un seul interlocuteur : nous.</p>
+                </div>
+                <div>
+                    <span>4</span>
+                    <h4>Elle arrive chez vous</h4>
+                    <p>Ponctuelle, professionnelle, et remplaçable en 48h si besoin.</p>
+                </div>
+            </section>
 
             <section className="testimonials">
                 <h2>Ce qu'ils en disent</h2>
                 <div className="testimonials-cards"></div>
             </section>
 
-            <div className="to-get-started"></div>
+            <div className="to-get-started">
+                <div>
+                    <h2>
+                        Prêt à avoir une prestataire vérifiée chez vous ?
+                    </h2>
+                    <p>Première mission ponctuelle à moitié prix pour les nouveaux clients.</p>
+                </div>
+
+                <div>
+                    <button>Commencer maintenant</button>
+                    <button>Parler à un conseiller</button>
+                </div>
+            </div>
         </div>
     )
 }
