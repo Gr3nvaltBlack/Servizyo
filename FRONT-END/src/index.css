@@ -6,11 +6,12 @@
   --bg: #FFFFFF;
   --primary-section: #1B4FD8;
   --second-section:#EAF4FF;
-
+  --third-section: #74D0F1;
   --main-headline: Poppins;
   --paragraph: Lato;
 
-  font-family: var(--main-headline);
+  font: var(--main-headline);
+  font-family: var(--paragraph);
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
