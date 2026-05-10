@@ -1,0 +1,59 @@
+/* 
+                ####################
+                    Navbar - Page
+                ####################
+*/
+
+#navigation-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: var(--bg);
+    position: fixed;
+    width: 100%;
+    gap: 20rem;
+    z-index: 1;
+}
+
+#navigation-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.servizyo-icon {
+    width: 80px;
+    height: 65px;
+    object-fit: cover;
+}
+
+.navigation-theme{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+.navigation-theme li {
+    font-family: var(--paragraph);
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 15px;
+}
+.navigation-theme li a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.navigation-button {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+/* 
+                ####################
+                    Footer - Page
+                ####################
+*/
