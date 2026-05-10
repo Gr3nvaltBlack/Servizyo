@@ -137,7 +137,6 @@
     align-items: center;
     height: 50vh;
     gap: 1rem;
-    z-index: 1;
     position: relative;
     &::after {
         content: "";
