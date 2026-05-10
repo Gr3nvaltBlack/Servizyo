@@ -57,3 +57,64 @@
                     Footer - Page
                 ####################
 */
+
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--footer-section);
+    color: var(--text-h);
+    padding: 10px 30px;
+    gap: 2rem;
+}
+
+.footer-container-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #FFFFFF;
+    padding-bottom: 6rem;
+}
+
+.footer-servizyo-information {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#servizyo-icon {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+#footer-all-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer-link-to-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link-to-information ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    gap: 1rem;
+}
+
+.footer-link-to-information ul a {
+    color: var(--text-h);
+    text-decoration: none;
+}
+
+.footer-container-second-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
