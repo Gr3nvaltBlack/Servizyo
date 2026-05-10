@@ -45,111 +45,112 @@ const HomePage = () => {
             </div>
 
             
-            <section className="ours-services">
-                <div className="information">
-                    <div>
-                        <span>✅</span>
-                        <span>Identités vérifiées</span>
+            <section id="ours-services">
+                <div id="information">
+                    <div className="information-service">
+                        <span className="information-service-icon">✅</span>
+                        <span className="information-service-text">Identités vérifiées</span>
                     </div>
-                    <div>
-                        <span>📄</span>
-                        <span>Contrats officiels</span>
+                    <div className="information-service">
+                        <span className="information-service-icon">📄</span>
+                        <span className="information-service-text">Contrats officiels</span>
                     </div>
-                    <div>
-                        <span>💳</span>
-                        <span>Paiement En ligne</span>
+                    <div className="information-service">
+                        <span className="information-service-icon">💳</span>
+                        <span className="information-service-text">Paiement En ligne</span>
                     </div>
-                    <div>
-                        <span>🔄️</span>
-                        <span>Remplacement 48h</span>
+                    <div className="information-service">
+                        <span className="information-service-icon">🔄️</span>
+                        <span className="information-service-text">Remplacement 48h</span>
                     </div>
-                    <div>
-                        <span>⚖️</span>
-                        <span>Conforme Code du Travail</span>
+                    <div className="information-service">
+                        <span className="information-service-icon">⚖️</span>
+                        <span className="information-service-text">Conforme Code du Travail</span>
                     </div>
-                    <div>
-                        <span>📞</span>
-                        <span>Support WhatsApp 7j/7</span>
+                    <div className="information-service">
+                        <span className="information-service-icon">📞</span>
+                        <span className="information-service-text">Support WhatsApp 7j/7</span>
                     </div>
                 </div>
 
-                    <hr id="information-line"/>
 
-                <div className="the-services">
-                    <h2>
-                        Tout le personnel dont vous avez besoin,
-                        au bon niveau de compétences
-                    </h2>
-                    <p>
-                        Chaque prestataire a une fiche certifiée avec ses compétences validées.
-                        Plus son niveau est élevé, plus son tarif est juste.
-                    </p>
-                </div>
-
-                <div className="service-card">
-                    <div className="card-of-service-provider">
-                        <h3>Travailleuse domestique</h3>
+                <div id="the-services">
+                    <div className="the-services-text">
+                        <h2>
+                            Tout le personnel dont vous avez besoin,
+                            au bon niveau de compétences
+                        </h2>
                         <p>
-                            Ménage, cuisine, lessive, repassage, soin des enfants.
-                            Niveaux 1 à 4 selon les compétences.
+                            Chaque prestataire a une fiche certifiée avec ses compétences validées.
+                            Plus son niveau est élevé, plus son tarif est juste.
                         </p>
-                        <p>Dès 24 000 g/mois →</p>
                     </div>
-                    <div className="card-of-service-provider">
-                        <h3>Homme de cour</h3>
-                        <p>
-                            Cour, portail, jardinage, lavage véhicules, gardiennage, conduite.
-                            Niveaux 1 à 3.
-                        </p>
-                        <p>Dès 24 000 g/mois →</p>
+
+                    <div id="service-card">
+                        <div className="card-of-service-provider">
+                            <h3>Travailleuse domestique</h3>
+                            <p>
+                                Ménage, cuisine, lessive, repassage, soin des enfants.
+                                Niveaux 1 à 4 selon les compétences.
+                            </p>
+                            <p className="card-of-service-provider-price">Dès 24 000 g/mois →</p>
+                        </div>
+                        <div className="card-of-service-provider">
+                            <h3>Homme de cour</h3>
+                            <p>
+                                Cour, portail, jardinage, lavage véhicules, gardiennage, conduite.
+                                Niveaux 1 à 3.
+                            </p>
+                            <p className="card-of-service-provider-price">Dès 24 000 g/mois →</p>
+                        </div>
                     </div>
                 </div>
             </section>
 
 
-            <section className="simple-process">
-                <div>
-                    <span>1</span>
+            <section id="simple-process">
+                <div className="simple-process-card">
+                    <span className="simple-process-card-number more-flex">1</span>
                     <h4>Vous décrivez votre besoin</h4>
                     <p>Via le site ou WhatsApp. Type de service, zone, fréquence.</p>
                 </div>
-                <div>
-                    <span>2</span>
+                <div className="simple-process-card">
+                    <span className="simple-process-card-number more-flex">2</span>
                     <h4>On vous propose un profil</h4>
                     <p>Prestataire vérifiée, certifiée, disponible dans votre zone.</p>
                 </div>
-                <div>
-                    <span>3</span>
+                <div className="simple-process-card">
+                    <span className="simple-process-card-number more-flex">3</span>
                     <h4>Contrat signé & paiement</h4>
                     <p>Abonnement mensuel. Un seul interlocuteur : nous.</p>
                 </div>
-                <div>
-                    <span>4</span>
+                <div className="simple-process-card">
+                    <span className="simple-process-card-number" id="except-mode">4</span>
                     <h4>Elle arrive chez vous</h4>
                     <p>Ponctuelle, professionnelle, et remplaçable en 48h si besoin.</p>
                 </div>
             </section>
 
-            <section className="testimonials">
+            {/* <section className="testimonials">
                 <h2>Ce qu'ils en disent</h2>
                 <div className="testimonials-cards"></div>
-            </section>
+            </section> */}
 
-            <div className="to-get-started">
-                <div>
+            <div id="to-get-started">
+                <div className="to-get-started-text">
                     <h2>
                         Prêt à avoir une prestataire vérifiée chez vous ?
                     </h2>
                     <p>Première mission ponctuelle à moitié prix pour les nouveaux clients.</p>
                 </div>
 
-                <div>
-                    <button>Commencer maintenant</button>
-                    <button>Parler à un conseiller</button>
+                <div className="to-get-started-button">
+                    <ButtonStyled>Commencer maintenant</ButtonStyled>
+                    <ButtonStyled>Parler à un conseiller</ButtonStyled>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default HomePage;
