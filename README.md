@@ -19,8 +19,8 @@ Sèvizyo formalizes the informal domestic work market in Haiti by acting as the 
 | Frontend | React / TypeScript |
 | Style | CSS |
 | Payment | MonCash · PayPal · Visa · Mastercard · Stripe · Bank transfer |
-| Database | PostgreSQL |
+| Database | SQLite · PostgreSQL |
 
 ## Status
-🚧 Day 1 of Project Development
+🚧 Development of the front end has begun. <br/>
 Currently under development ...
