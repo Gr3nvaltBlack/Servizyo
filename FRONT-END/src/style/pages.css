@@ -140,13 +140,15 @@
     position: relative;
     &::after {
         content: "";
-        width: 100%;
+        width: 65%;
+        height: 1px;
         display: inline-block;
         position: absolute;
         background-color: var(--third-section);
-        top: 50%;
+        top: 37%;
     }
 }
+
 
 .simple-process-card {
     display: flex;
@@ -154,6 +156,7 @@
     align-items: center;
     text-align: center;
     width: 22%;
+    z-index: 1;
 }
 
 .simple-process-card-number{
@@ -195,4 +198,232 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+/* 
+                ####################
+                    Services - Page
+                ####################
+*/
+
+#transparent-pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    height: 60vh;
+}
+
+.transparent-pricing-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.transparent-pricing-content h1 {
+    margin: 0;
+}
+
+#domestic-workers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 70vh;
+    background-color: var(--second-section);
+    padding: 40px 30px;
+    gap: 4rem;
+}
+
+.domestic-workers-information {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.domestic-workers-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 30px 15px;
+    gap: 1.5rem;
+    border: 1px solid var(--third-section);
+    background-color: var(--bg);
+    box-shadow: 0 0 1px;
+}
+
+.workers-card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-bottom: 0.5px solid var(--third-section);
+    padding-bottom: 1.5rem;
+}
+.workers-card-header-text span {
+    color: var(--btn-section);
+    opacity: 5;
+    font-family: var(--paragraph);
+    font-weight: 400;
+    font-size: small;
+}
+.workers-card-header-text h3 {
+    font-family: var(--main-headline);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.workers-card-header-text-second span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.workers-card-header-text-second span h3 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.workers-card-body ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.workers-card-body ul li::before {
+    content: "✓";
+    color: var(--check);
+    margin-right: 5px;
+}
+
+
+#man-workers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 70vh;
+    padding: 40px 30px;
+    gap: 4rem;
+}
+
+.man-workers-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.man-workers-card {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    border-radius: 5px;
+    padding: 30px 15px;
+    border: 1px solid var(--third-section);
+    background-color: var(--bg);
+    box-shadow: 0 0 1px;
+    gap: 1.5rem;
+}
+
+
+#guarantee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px;
+    height: 50vh;
+    background-color: var(--second-section);
+}
+
+.guarantee-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.guarantee-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    width: 30%;
+    border: 0.5px solid var(--third-section);
+    border-radius: 5px;
+    background-color: var(--bg);
+    box-shadow: 0 0 0.5px;
+}
+
+
+/* 
+                ####################
+                    Contact - Page
+                ####################
+*/
+
+
+#contact-we-are-here {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    height: 60vh;
+    background-color: var(--second-section);
+}
+
+.contact-we-are-here-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.contact-we-are-here-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#contact-information {
+    display: flex;
+    flex-direction: row;
+    min-height: 90vh;
+}
+
+.contact-information-part {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 40px 30px;
+}
+#part-left {
+    color: var(--text-h);
+    background-color: var(--primary-section);
+    gap: 2rem;
+}
+
+.contact-information-link {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.contact-information-link-content {
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+}
+
+.contact-icon {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    font-size: 20px;
+    /* &::after {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 40px;
+        filter: blur(26px);
+    } */
 }
