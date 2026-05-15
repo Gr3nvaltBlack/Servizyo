@@ -21,7 +21,7 @@ const NavBar = () => {
                             <NavLink to={""}>Nos Prestataires</NavLink>
                         </li>
                         <li>
-                            <NavLink to={""}>Comment ça marche</NavLink>
+                            <NavLink to={"/comment-ca-marche"}>Comment ça marche</NavLink>
                         </li>
                         <li>
                             <NavLink to={"/contact"}>Contact</NavLink>
