@@ -11,26 +11,29 @@
     background-color: var(--primary-section);
     color: var(--text-h);
     height: 95vh;
+    padding: 0 30px;
 }
 
 .hero-half-left {
     display: flex;
     flex-direction: column;
-    width: 50%;
     gap: 1rem;
+    border-bottom: 1px solid var(--bg);
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .hero-button {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    padding-bottom: 50px;
 }
 
-#hero-line {
-    width: 95%;
-    border: 0.5px solid var(--text-h);
-    margin-top: 50px;
-}
 
 .hero-moyenne {
     display: flex;
@@ -100,6 +103,7 @@
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    padding: 0 30px;
 }
 
 .the-services-text {
@@ -427,3 +431,11 @@
         filter: blur(26px);
     } */
 }
+
+
+/* 
+                ########################
+                    Functioning - Page
+                ########################
+*/
+
