@@ -21,7 +21,6 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                        <hr id="hero-line"/>
 
                 <div className="hero-moyenne">
                     <div className="all-moyenne">
